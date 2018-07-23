@@ -1,0 +1,102 @@
+/*** Typography ***/
+
+.projectName {
+  font-weight: 500;
+}
+
+flow-text {
+  font-weight: lighter;
+}
+/*** Images ***/
+
+#section-img {
+  max-width: 25%;
+}
+
+#about-img {
+  max-width: 35%;
+}
+
+/*** Navigation Transparency ***/
+
+#bn-logo {
+  max-width: 23%;
+  margin-top: .5rem;
+}
+
+nav {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.2);
+  padding:0px 20px;
+  z-index: 1;
+}
+
+section#landing-bg {
+  background-color: #78909c;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+nav li a:hover {
+  background: #4fc3f7;
+}
+
+/*** Intro Section ***/
+
+#intro {
+  padding-top: 14rem;
+}
+
+/*** Work Section ***/
+
+.work-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/*** Contact Section ***/
+
+.contact-section {
+  padding-bottom: 2rem;
+}
+
+/*** Media Queries ***/
+
+@media only screen and (max-width: 480px) {
+
+  #bn-logo {
+    max-width: 50%;
+    margin-top: .7rem;
+    margin-left: 5.6rem;
+  }
+
+  .sidenav-overlay {
+    opacity: 0;
+  }
+
+  .sidebar-fix {
+    top: -3.9rem;
+  }
+
+  #intro {
+    padding-top: 8rem;
+    text-align: center;
+  }
+
+  #section-img {
+    max-width: 50%;
+  }
+
+  #about-img {
+    max-width: 40%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .mobileFix {
+    margin-bottom: 4%;
+  }
+}
